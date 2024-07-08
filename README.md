@@ -30,12 +30,7 @@ In the below screenshot, you can see that the column with display name 'Test' ha
 ![image](https://github.com/A-Murchison/SharePoint-Shortcuts/assets/17418214/b1d4904e-e217-4523-894a-f807abfca80e)
 
 ## Get Site Property bag - getSitePropertyBag.min.js
-Gets the current sites property bag XML values.
-
-In the below screenshot, it shows the output when you click the button
-
-![image](https://github.com/A-Murchison/SharePoint-shortcuts/assets/17418214/966e4ddf-725f-434d-8d14-2b0684695f3e)
-
+Gets the current sites property bag XML values and puts them in the console. This usually doesn't fit in the JavaScript 'prompt()' in all browsers so I'm just putting it into the console. 
 
 ## Requests
 Please raise any request as an issue and I'll do my best to create these for you. Open to give anything a go in JS or C#. 
