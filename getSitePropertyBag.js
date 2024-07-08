@@ -18,7 +18,7 @@ async function getSitePropertyBag() {
     }).then(function (data)
     {
         data.text().then(function (response) {
-            prompt("Site Property Bag", response);
+            console.log("***Site Property Bag*** \n" + response);
         })
         
     });
