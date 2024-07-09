@@ -1,6 +1,6 @@
 // Function to get property bag for a site
 async function getSitePropertyBag() {
-    // Construct the REST API endpoint URL using _spPageContextInfo
+    // Construct the REST API endpoint URL without using _spPageContextInfo as occassionally it isn't loaded...
     var siteUrl = getCurrentSiteUrl();
     var url = siteUrl + "/_api/web/allproperties";
 
